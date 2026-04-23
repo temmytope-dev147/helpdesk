@@ -1,0 +1,529 @@
+[30-Mar-2026 12:07:23 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:07:33 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:07:43 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:07:53 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:08:03 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:08:13 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:08:23 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:08:33 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 12:55:48 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:48 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250 SMTPUTF8
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[30-Mar-2026 12:55:49 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Mon, 30 Mar 2026 12:55:48 +0200
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #9999
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <58NNexPao9JVeAQhSoMXcrAR47FXikZOhEtCXzQyuaI@localhost>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <h3>New Helpdesk Ticket Submitted</h3>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <hr>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Ticket ID:</strong> #9999</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>User:</strong> Sterling Asurance test (quadri904@gmail.com)</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Type:</strong> Hardware</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Priority:</strong> High</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Branch:</strong> Head Office</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Subject:</strong> Test Subject</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Description:</strong><br>Test description</p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <br>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><i>Please login to the admin portal to respond.</i></p>
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:         
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:55:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+
+[30-Mar-2026 12:55:52 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1774867987 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[30-Mar-2026 12:55:52 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-48725d9e85fsm122773095e9.1 - gsmtp
+
+[30-Mar-2026 12:55:52 Europe/Berlin] MAIL SUCCESS: Ticket #9999 email sent to quadri904@gmail.com
+[30-Mar-2026 12:59:47 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:47 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 12:59:48 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.208]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250 SMTPUTF8
+
+[30-Mar-2026 12:59:48 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[30-Mar-2026 12:59:49 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[30-Mar-2026 12:59:49 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.208]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[30-Mar-2026 12:59:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<ntquadrie@sterlingassure.com>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Mon, 30 Mar 2026 12:59:47 +0200
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com, ntquadrie@sterlingassure.com
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <LUlVlB1ZVVOSdIvebqZ40GvFuT8Ejki55Jy9KjLZAf8@localhost>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <h3>New Helpdesk Ticket Submitted</h3>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <hr>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Ticket ID:</strong> #</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>User:</strong> Quadri Temmytope (ntquadrie@sterlingassure.com)</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Type:</strong> Hardware</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Priority:</strong> critical</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Branch:</strong> Port Harcourt Branch</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Subject:</strong> Duplicates in production report</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Description:</strong><br>We discovered duplicate entries in the all branch production report</p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <br>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><i>Please login to the admin portal to respond.</i></p>
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:         
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 12:59:52 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+
+[30-Mar-2026 12:59:53 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1774868228 ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:53 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[30-Mar-2026 12:59:53 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43cf2463dc2sm18238374f8f.23 - gsmtp
+
+[30-Mar-2026 12:59:53 Europe/Berlin] MAIL SUCCESS: Ticket # email sent to ntquadrie@sterlingassure.com
+[30-Mar-2026 13:07:58 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:07:58 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.208]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250 SMTPUTF8
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.88.115.208]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[30-Mar-2026 13:07:59 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<ntquadrie@sterlingassure.com>
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:00 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Mon, 30 Mar 2026 13:07:58 +0200
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com, ntquadrie@sterlingassure.com
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <lR5A2RuOSTsAewJdIjErCuRSU4Y8NfyfCW28E24@localhost>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <h3>New Helpdesk Ticket Submitted</h3>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <hr>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Ticket ID:</strong> #</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>User:</strong> Quadri Temmytope (ntquadrie@sterlingassure.com)</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Type:</strong> Software</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Priority:</strong> low</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Branch:</strong> Ibadan Branch</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Subject:</strong> can&#039;t access gibs</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><strong>Description:</strong><br>I&#039;m getting error when trying to print a debit note</p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <br>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:             <p><i>Please login to the admin portal to respond.</i></p>
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:         
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: 
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1774868716 ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+
+[30-Mar-2026 13:08:01 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43cf245ebafsm16743808f8f.21 - gsmtp
+
+[30-Mar-2026 13:08:01 Europe/Berlin] MAIL SUCCESS: Ticket # email sent to ntquadrie@sterlingassure.com
+[30-Mar-2026 15:21:10 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[30-Mar-2026 15:21:10 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 15:21:10 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 15:59:20 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 
+[30-Mar-2026 15:59:20 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host.
+[30-Mar-2026 15:59:20 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host.
+[30-Mar-2026 16:10:15 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[30-Mar-2026 16:10:15 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 16:10:15 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 16:16:22 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[30-Mar-2026 16:16:22 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 16:16:22 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 16:25:35 Europe/Berlin] TICKET CREATED: ID=3018 for user=ntquadrie@sterlingassure.com
+[30-Mar-2026 16:25:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_SMIME in C:\xampp\htdocs\helpdesk\config.php:112
+Stack trace:
+#0 C:\xampp\htdocs\helpdesk\api.php(173): sendEmailNotification('3018', Array, 'Domain not conn...', 'Clear all logs', 'Hardware', 'medium', 'Ibadan Branch')
+#1 C:\xampp\htdocs\helpdesk\api.php(44): createTicket()
+#2 {main}
+  thrown in C:\xampp\htdocs\helpdesk\config.php on line 112
+[30-Mar-2026 16:56:17 Europe/Berlin] TICKET CREATED: ID=3019 for user=ntquadrie@sterlingassure.com
+[30-Mar-2026 16:56:32 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[30-Mar-2026 16:56:32 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[30-Mar-2026 16:56:32 Europe/Berlin] MAIL FAILED [STARTTLS:587]: SMTP Error: Could not connect to SMTP host. Failed to connect to server — trying next config...
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.210.53.65]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[30-Mar-2026 16:56:34 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:35 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<ntquadrie@sterlingassure.com>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Mon, 30 Mar 2026 16:56:32 +0200
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com, ntquadrie@sterlingassure.com
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #3019
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <plaWqmjdmgXgNyPWFYOBchgulqwipnx7aSWYM4Brq4@localhost>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <h3>New Helpdesk Ticket Submitted</h3>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <hr>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Ticket ID:</strong> #3019</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>User:</strong> Quadri Temmytope (ntquadrie@sterlingassure.com)</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Type:</strong> Software</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Priority:</strong> high</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Branch:</strong> Kano Branch</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Subject:</strong> Slow imntegration</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Description:</strong><br>The login is slow</p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <br>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><i>Please login to the admin portal to respond.</i></p>
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[30-Mar-2026 16:56:36 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+[30-Mar-2026 16:56:38 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1774882432 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:38 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+[30-Mar-2026 16:56:38 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-48722d49c18sm281020845e9.14 - gsmtp
+[30-Mar-2026 16:56:38 Europe/Berlin] MAIL SUCCESS [SSL:465]: Ticket #3019 sent to ntquadrie@sterlingassure.com
+[01-Apr-2026 13:44:51 Europe/Berlin] TICKET CREATED: ID=4015 for user=ntquadrie@sterlingassure.com
+[01-Apr-2026 13:45:07 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[01-Apr-2026 13:45:07 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Apr-2026 13:45:07 Europe/Berlin] MAIL FAILED [STARTTLS:587]: SMTP Error: Could not connect to SMTP host. Failed to connect to server — trying next config...
+[01-Apr-2026 13:45:22 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[01-Apr-2026 13:45:22 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Apr-2026 13:45:22 Europe/Berlin] MAIL FAILED [SSL:465]: SMTP Error: Could not connect to SMTP host. Failed to connect to server — trying next config...
+[01-Apr-2026 13:45:22 Europe/Berlin] MAIL ERROR: All SMTP configs failed for Ticket #4015. Last error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Apr-2026 14:04:25 Europe/Berlin] TICKET CREATED: ID=4016 for user=ntquadrie@sterlingassure.com
+[01-Apr-2026 14:04:40 Europe/Berlin] SMTP DEBUG: SMTP ERROR: Failed to connect to server: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond (10060)
+[01-Apr-2026 14:04:40 Europe/Berlin] SMTP DEBUG: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[01-Apr-2026 14:04:40 Europe/Berlin] MAIL FAILED [STARTTLS:587]: SMTP Error: Could not connect to SMTP host. Failed to connect to server — trying next config...
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [102.89.44.144]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[01-Apr-2026 14:04:41 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:42 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<ntquadrie@sterlingassure.com>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Wed, 1 Apr 2026 14:04:40 +0200
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com, ntquadrie@sterlingassure.com
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #4016
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <Ty721N0EwqJJffKYhC2lSA2wM9qmo6DcOhqiECc5W4@localhost>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <h3>New Helpdesk Ticket Submitted</h3>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <hr>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Ticket ID:</strong> #4016</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>User:</strong> Quadri Temmytope (ntquadrie@sterlingassure.com)</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Type:</strong> Software</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Priority:</strong> high</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Branch:</strong> Head Office - Lagos</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Subject:</strong> can&#039;t access gibs</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Description:</strong><br>Invalid password</p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <br>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><i>Please login to the admin portal to respond.</i></p>
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[01-Apr-2026 14:04:43 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+[01-Apr-2026 14:04:45 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1775044920 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:45 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+[01-Apr-2026 14:04:45 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection 00721157ae682-79cb790bd81sm63491067b3.11 - gsmtp
+[01-Apr-2026 14:04:45 Europe/Berlin] MAIL SUCCESS [SSL:465]: Ticket #4016 sent to ntquadrie@sterlingassure.com
+[01-Apr-2026 14:18:18 Europe/Berlin] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 10060 Additional SMTP info: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[07-Apr-2026 11:48:18 Europe/Berlin] TICKET CREATED: ID=5015 for user=ntquadrie@sterlingassure.com
+[07-Apr-2026 11:48:35 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:35 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+[07-Apr-2026 11:48:35 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.211.59.105]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[07-Apr-2026 11:48:35 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: STARTTLS
+[07-Apr-2026 11:48:36 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+[07-Apr-2026 11:48:37 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: EHLO localhost
+[07-Apr-2026 11:48:40 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.211.59.105]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+[07-Apr-2026 11:48:40 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: AUTH LOGIN
+[07-Apr-2026 11:48:42 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+[07-Apr-2026 11:48:42 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[07-Apr-2026 11:48:45 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+[07-Apr-2026 11:48:45 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: [credentials hidden]
+[07-Apr-2026 11:48:48 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 235 2.7.0 Accepted
+[07-Apr-2026 11:48:48 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MAIL FROM:<quadri904@gmail.com>
+[07-Apr-2026 11:48:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<quadri904@gmail.com>
+[07-Apr-2026 11:48:50 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:50 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: RCPT TO:<ntquadrie@sterlingassure.com>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: DATA
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Date: Tue, 7 Apr 2026 11:48:18 +0200
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: To: quadri904@gmail.com, ntquadrie@sterlingassure.com
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: From: IT Helpdesk <quadri904@gmail.com>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Subject: New Ticket Created - #5015
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Message-ID: <9r3va6WhIr6nVBv2x1sZkXJH0zfF7FwYrzJchHYvXk@localhost>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: X-Mailer: PHPMailer 7.0.2 (https://github.com/PHPMailer/PHPMailer)
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: MIME-Version: 1.0
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <h3>New Helpdesk Ticket Submitted</h3>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <hr>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Ticket ID:</strong> #5015</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>User:</strong> Quadri Temmytope (ntquadrie@sterlingassure.com)</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Type:</strong> Hardware</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Priority:</strong> high</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Branch:</strong> Abuja Branch</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Subject:</strong> Duplicates in production report</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><strong>Description:</strong><br>Noticed multiple duplicates in production report</p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <br>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:                 <p><i>Please login to the admin portal to respond.</i></p>
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER:
+[07-Apr-2026 11:48:51 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: .
+[07-Apr-2026 11:48:54 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 250 2.0.0 OK  1775555163 ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:54 Europe/Berlin] SMTP DEBUG: CLIENT -> SERVER: QUIT
+[07-Apr-2026 11:48:57 Europe/Berlin] SMTP DEBUG: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-43d1e4d28a5sm44412621f8f.20 - gsmtp
+[07-Apr-2026 11:48:57 Europe/Berlin] MAIL SUCCESS [STARTTLS:587]: Ticket #5015 sent to ntquadrie@sterlingassure.com
